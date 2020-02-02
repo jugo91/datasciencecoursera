@@ -12,4 +12,3 @@ Transformations applied (for the dataset after task 4):
 
 Further transformations applied (for the dataset for task 4):
 -	Dropping the variables containing "std()" as they are not required for task 5
--	Pivoting the dataset such that all means remain observations, the columns containing mean are pivoted to a new column "variable"

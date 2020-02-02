@@ -52,8 +52,8 @@
   
   pivot_cols <- colnames(dataset_new)[!is.na(str_match(colnames(dataset_new),extract_string))]
   
-  tidy_dataset <- dataset_new %>% pivot_longer(pivot_cols,names_to = "variable")
-  write.table(tidy_dataset,"./output.txt",row.names = FALSE)
+  #tidy_dataset <- dataset_new %>% pivot_longer(pivot_cols,names_to = "variable")
+  write.table(dataset_new,"./output.txt",row.names = FALSE)
   
   
   
